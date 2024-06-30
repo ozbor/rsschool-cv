@@ -4,7 +4,7 @@
 **email:** ozbor.ozbor@gmail.com
 
 ### Summary
-I'm a QA lead and Software Testing Engineer with key skill in functional testing. My goal is to receive technical knowledge.
+I'm a QA lead and Software Testing Engineer with key skill in functional testing. My goal is to receive technical knowledge and develop my career in that direction.
 
 ### Skills
 - Functional testing
