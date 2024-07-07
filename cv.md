@@ -11,6 +11,8 @@ I'm a QA lead and Software Testing Engineer with key skill in functional testing
 - Team leadership
 - SQL
 - Python (Functional programming)
+- HTML
+- GIT/GitHub
 
 ### Code example
 
@@ -39,11 +41,12 @@ for i in text:
 print(*new_text)
 ```
 ### Experience
-EPAM Syatems
-Lead Software Test Engineer
+EPAM Systems
+Lead Software Testing Engineer
 
 ### Education
 Belarusian State University - Management
 
 ### Languages
+Russian native
 English speaking B2+
