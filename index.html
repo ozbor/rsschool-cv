@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cv</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header"> 
+        <div class="container">           
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                    <li class="nav-item"><a href="#cources" class="nav-link">Cources</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                </ul>
+            </nav>
+        </div>  
+     </header>
+      
+    <main>
+            <div class="container main-container">
+            <section class="section" id="profile">
+                <h1 class=".section-title"> Olga Zborovskaya </h1>
+                <img src="assets/img/my_photo.jpg" alt="my photo" width="180" height="200">
+            </section>
+            <section class="section" id="contacts">
+                <h2 class=".section-title"> Contacts:</h2>
+                <ul>
+                    <li>Email: ozbor.ozbor@gmail.com</li>
+                    <li>Discord: ozbor33</li>
+                </ul>
+            </section>
+            <section class="section" id="summary">
+                <h2 class=".section-title">Summary</h2>
+                <p>I'm a QA lead and Software Testing Engineer with key skill in functional testing.
+                My goal is to receive technical knowledge and develop my career in that direction.</p>
+            </section>
+            <section class="section" id="skills">
+                <h2 class=".section-title">Skills</h2>
+                <ul>
+                    <li>Functional testing</li>
+                    <li>Team leadership</li>
+                    <li>SQL</li>
+                    <li>Python (Functional programming)</li>
+                    <li>HTML</li>
+                    <li>GIT/GitHub</li>
+                </ul>
+            </section>
+            <section class="section" id="code">
+                <h2 class=".section-title">Code example</h2>
+                <pre class="pre">
+                    <code> 
+                    Python:
+                    eng_lower_alphabet = 'abcdefghijklmnopqrstuvwxyz'
+                    eng_upper_alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+                                
+                    text = input().split()
+                    new_text = []
+                    for i in text:
+                        word = ''
+                        length = 0
+                        for l in i:
+                            if l.isalpha():
+                                length += 1
+                        for j in range(len(i)):
+                            if i[j].islower():
+                                word += eng_lower_alphabet[(eng_lower_alphabet.index(i[j]) + length) % 26]
+                            elif i[j].isupper():
+                                word += eng_upper_alphabet[(eng_upper_alphabet.index(i[j]) + length) % 26]
+                            else:
+                                word += i[j]
+                        new_text.append(word)
+                    print(*new_text)
+                    </code>
+                </pre>                
+            </section>
+            <section class="section" id="courses">
+                <h2 class=".section-title">Courses</h2>
+                <ul>
+                    <li>
+                        <a href="https://stepik.org/cert/1691765?lang=en" target="_blank">Interactive SQL Simulator</a>
+                    </li>
+                    <li>
+                        <a href="https://stepik.org/cert/2093477?lang=en" target="_blank">Python Generation: course for beginners</a>
+                    </li>
+                </ul>
+            </section>
+            <section class="section" id="projects">
+                <h2 class=".section-title">Projects</h2>
+                <a href="https://ozbor.github.io/rsschool-cv/">CV project</a>
+            </section>
+            <section class="section" id="education">
+                <h2 class=".section-title">Education</h2>
+                <p>Belarusian State University - Management</p>
+            </section>
+            <section class="section" id="languages">
+                <h2 class=".section-title">Languages</h2>
+                <ul>
+                    <li>Russian native</li>
+                    <li>English speaking B2+</li>
+                </ul>
+            </section>
+        </div>
+    </main>      
+    <footer>
+        <div class="container">
+            <p><a href="https://github.com/ozbor" target="_blank">My GitHub</a> 2025 <img src="assets/img/rs-school-logo.svg" alt="logo" width="50" height="50"><a href="https://rs.school/courses/javascript-ru">RS SCHOOL</a></p>
+                 
+        </div>
+    </footer> 
+</body>
+</html>
+
+   
